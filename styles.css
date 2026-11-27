@@ -18,8 +18,14 @@
 .container-header{
     display: flex;
     align-items:center;
-    gap: 10px;
+    gap: 12px;
+    font-family: "Playfair Display", serif;
     
+}
+
+.container-header img{
+    width: 24;
+    height: 24px;
 }
 
 .header a{
@@ -51,20 +57,22 @@
     border: #2F80ED solid 1px;
     background-color: #ffff;
     color: #2F80ED;
-    width: 72px;
+    width: 92px;
     height:35px;
     border-radius: 5px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .button-login{
     border: #ffff solid 1px;
     background-color:  #2F80ED;
     color: #ffff;
-    width: 72px;
+    width: 92px;
     height: 35px;
     border-radius: 5px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 /* HERO */
@@ -119,7 +127,7 @@
 
 .search_form{
     display: flex;
-    gap:10px;
+    gap:15px;
     
 }
 
@@ -214,5 +222,23 @@ input::placeholder{
 
 }
 
+.card-boxes{
+    display: flex;
+    gap: 20px;
+}
 
+.card_body h3{
+    margin: 8px 0 0 0;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 2%;
+    line-height: 140%;
+}
 
+.card_body p{
+    margin: 4px 0 0 0 ;
+     font-size: 16px;
+    color: #333333;
+    letter-spacing: 2%;
+    line-height: 140%;
+}
