@@ -3,3 +3,84 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 68px;
+
+}
+
+.container-header{
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 4%;
+}
+
+.container-header img{
+    width: 24px;
+    height: 24px;
+}
+
+.container-header span{
+    font-weight: 600;
+}
+
+.container-header a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.navigation-list ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 16px;
+    
+    
+}
+
+nav a{
+    font-family:"Playfair Display", serif ;
+    text-decoration: none;
+    color:#333333;
+    font-weight: 400;
+}
+
+.actions-buttons{
+    display: flex;
+    gap: 20px;
+    margin-right: 6%;
+}
+
+.actions-buttons .button-registre{
+    font-family:"Playfair Display", serif ;
+    width: 92px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    font-weight: 700;
+    color: #2F80ED;
+    border: #2F80ED solid 1px;
+    cursor: pointer;
+}
+
+.actions-buttons .button-login{
+    font-family:"Playfair Display", serif ;
+    width: 92px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #2F80ED;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+}
