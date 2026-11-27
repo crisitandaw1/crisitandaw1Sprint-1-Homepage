@@ -101,15 +101,17 @@
     font-size: 32px;
     line-height: 100%;
     letter-spacing: 0%;
+    
 }
 
 .hero_subtitle{
-    font-family: "Playfair Display", serif;
+    font-family: Arial, Helvetica, sans-serif;
     width: 650px;
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 2%;
     line-height: 140%;
+    margin: 0 auto;
 }
 
 .search{
@@ -127,7 +129,7 @@
 
 .search_form{
     display: flex;
-    gap:15px;
+    gap: 15px;px;
     
 }
 
@@ -237,8 +239,123 @@ input::placeholder{
 
 .card_body p{
     margin: 4px 0 0 0 ;
-     font-size: 16px;
+    font-size: 16px;
     color: #333333;
     letter-spacing: 2%;
     line-height: 140%;
+}
+
+
+/* INSPIRATION TRIP */
+
+.section-inspirational{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+.container{
+    width: 1240px;
+    margin: 0 auto;
+    
+}
+
+.inspirational-title{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 52px 0 24px 0 ;
+    color: #181818;
+    width: 504px;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-weight: 600;
+}
+
+.max-container{
+    display: flex;
+    gap: 20px;
+}
+
+.inspirational-card{
+    position: relative;
+}
+
+.card-body2{
+    position: absolute;
+    bottom: 10%;
+    color: white;
+    font-size: 15px;
+    
+}
+
+.card-title2{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 360px;
+    margin: 0 0 0 15px;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0%;
+    line-height: 100%;
+}
+
+.card-text2{
+    width: 360px;
+    margin: 20px 0 0 15px;
+    font-size: 16px;
+    letter-spacing: 0%;
+    line-height: 100%;
+}
+
+
+.card-body3{
+    position: absolute;
+    bottom: 10%;
+    color: white;
+    font-size: 15px;
+    
+}
+
+.card-title3{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 360px;
+    margin: 0 0 0 15px;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0%;
+    line-height: 100%;
+}
+
+.card-text3{
+    width: 360px;
+    margin: 20px 0 0 15px;
+    font-size: 16px;
+    letter-spacing: 0%;
+    line-height: 100%;
+}
+
+
+.card-body4{
+    position: absolute;
+    bottom: 12%;
+    color: white;
+    font-size: 15px;
+    
+}
+
+.card-title4{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 360px;
+    margin: 0 0 15px 15px;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0%;
+    line-height: 100%;
+}
+
+.card-text4{
+    width: 360px;
+    margin: 15px 0 0 15px;
+    font-size: 16px;
+    letter-spacing: 0%;
+    line-height: 100%;
 }
