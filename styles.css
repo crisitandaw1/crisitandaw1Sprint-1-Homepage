@@ -32,6 +32,10 @@
     text-decoration: none;
     color: #1B1F2D;
     font-size: 18px;
+    font-weight: 500;
+    font-style: medium;
+    line-height: 100%;
+    letter-spacing: 2%;
 }
 
 .nav-ul{
@@ -57,8 +61,8 @@
     border: #2F80ED solid 1px;
     background-color: #ffff;
     color: #2F80ED;
-    width: 92px;
-    height:35px;
+    width: 100px;
+    height:50px;
     border-radius: 5px;
     font-weight: 700;
     cursor: pointer;
@@ -68,8 +72,8 @@
     border: #ffff solid 1px;
     background-color:  #2F80ED;
     color: #ffff;
-    width: 92px;
-    height: 35px;
+    width: 100px;
+    height: 50px;
     border-radius: 5px;
     font-weight: 700;
     cursor: pointer;
@@ -117,7 +121,7 @@
 
 .search{
     position: relative;
-    top: 35%;
+    top: 36%;
     width: 1030px;
     height: 64px;
     background-color: #FFFFFF;
@@ -436,7 +440,47 @@ display: flex;
 
 
 
+/* EXPLORE */
 
+.explore{
+    font-family: Arial, Helvetica, sans-serif;
+    color: ##181818;
+}
 
+.container-explore{
+    max-width: 1240px;
+    height: 48px;
+    margin:  55px auto;
+    text-align: center;
+}
 
+.explore-title{
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    line-height: 140%;
+    margin: 0 0 16px 0;
+}
+
+.container-explore a{
+    text-decoration: none;
+    color: #2F80ED;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* FOOTER */
+
+.footer-main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4F4F4F;
+}
+
+.container-footer{
+    margin: 0 auto;
+    max-width: 1240px;
+    height:auto;
+}
 
