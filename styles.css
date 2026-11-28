@@ -482,5 +482,9 @@ display: flex;
     margin: 0 auto;
     max-width: 1240px;
     height:auto;
+    display: flex;
+    justify-content: space-between;
 }
+
+
 
